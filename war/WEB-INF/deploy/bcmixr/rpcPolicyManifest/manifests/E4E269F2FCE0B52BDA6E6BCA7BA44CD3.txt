@@ -1,0 +1,2 @@
+serviceClass: ca.ubc.partyallthetime.bcmixr.client.PriceService
+path: 780CB836A2EE9F9AE8C7030F85B4AE72.gwt.rpc

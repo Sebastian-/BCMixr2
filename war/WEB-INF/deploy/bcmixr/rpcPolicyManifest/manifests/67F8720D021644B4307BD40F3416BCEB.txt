@@ -1,0 +1,2 @@
+serviceClass: ca.ubc.partyallthetime.bcmixr.client.RecipeSaveService
+path: 3847B437F15E37E7684FE2479FD0C5A2.gwt.rpc

@@ -1,0 +1,2 @@
+serviceClass: ca.ubc.partyallthetime.bcmixr.client.DisplayNameService
+path: 8FB08A3588656619F8706D4DAF88A5C3.gwt.rpc

@@ -1,0 +1,2 @@
+serviceClass: ca.ubc.partyallthetime.bcmixr.client.CheckIfRecentlyParsed
+path: F739D8F2D3A73AC0E92984818A080C29.gwt.rpc

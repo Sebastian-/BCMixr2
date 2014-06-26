@@ -1,0 +1,2 @@
+serviceClass: ca.ubc.partyallthetime.bcmixr.client.GreetingService
+path: 3FC7C930F1408F775BF21FD9CDE25C3A.gwt.rpc

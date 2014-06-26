@@ -1,0 +1,16 @@
+ca.ubc.partyallthetime.bcmixr.client.RecipeSaveService, false, false, false, false, _, 3750436742
+ca.ubc.partyallthetime.bcmixr.shared.Recipe, false, false, true, true, ca.ubc.partyallthetime.bcmixr.shared.Recipe/3568321499, 3568321499
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException, true, true, true, true, com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException/3936916533, 3936916533
+com.google.gwt.user.client.rpc.RpcTokenException, true, true, false, false, com.google.gwt.user.client.rpc.RpcTokenException/2345075298, 2345075298
+com.google.gwt.user.client.rpc.XsrfToken, false, false, true, true, com.google.gwt.user.client.rpc.XsrfToken/4254043109, 4254043109
+java.io.IOException, true, true, false, false, java.io.IOException/1159940531, 1159940531
+java.io.UnsupportedEncodingException, true, true, false, false, java.io.UnsupportedEncodingException/1526756933, 1526756933
+java.lang.Exception, true, false, true, false, java.lang.Exception/1920171873, 1920171873
+java.lang.IllegalArgumentException, true, true, false, false, java.lang.IllegalArgumentException/1755012560, 1755012560
+java.lang.Long, false, false, true, true, java.lang.Long/4227064769, 4227064769
+java.lang.Number, false, false, true, false, java.lang.Number/300033342, 300033342
+java.lang.NumberFormatException, true, true, false, false, java.lang.NumberFormatException/3305228476, 3305228476
+java.lang.RuntimeException, true, false, true, false, java.lang.RuntimeException/515124647, 515124647
+java.lang.String, true, true, true, true, java.lang.String/2004016611, 2004016611
+java.lang.Throwable, true, false, true, false, java.lang.Throwable/2953622131, 2953622131
+java.util.ArrayList, false, false, true, true, java.util.ArrayList/4159755760, 4159755760

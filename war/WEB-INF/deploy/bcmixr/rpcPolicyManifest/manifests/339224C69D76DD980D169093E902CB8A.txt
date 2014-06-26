@@ -1,0 +1,2 @@
+serviceClass: ca.ubc.partyallthetime.bcmixr.client.LoginService
+path: 616E719AC842B4FDB8C45B2CD5294690.gwt.rpc

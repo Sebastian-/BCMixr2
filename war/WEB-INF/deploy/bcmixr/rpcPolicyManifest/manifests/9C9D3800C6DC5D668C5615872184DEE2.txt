@@ -1,0 +1,2 @@
+serviceClass: ca.ubc.partyallthetime.bcmixr.client.RecipeRatingService
+path: 207C5454E0FDC6FC6F33B7B667C4DA82.gwt.rpc

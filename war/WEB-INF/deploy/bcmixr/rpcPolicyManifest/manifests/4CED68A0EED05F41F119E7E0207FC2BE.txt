@@ -1,0 +1,2 @@
+serviceClass: ca.ubc.partyallthetime.bcmixr.client.ParseService
+path: ABE19C8F7689BBE32C7F0B3FBF52F477.gwt.rpc

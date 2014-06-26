@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee                http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+  <!-- Servlets -->
+  
+  
+  
+      <servlet>
+    <servlet-name>recipeSaveServiceServlet</servlet-name>
+    <servlet-class>ca.ubc.partyallthetime.bcmixr.server.RecipeSaveServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>recipeSaveServiceServlet</servlet-name>
+    <url-pattern>/bcmixr/saveRecipe</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+    <servlet-name>displayNameServiceServlet</servlet-name>
+    <servlet-class>ca.ubc.partyallthetime.bcmixr.server.DisplayNameServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>displayNameServiceServlet</servlet-name>
+    <url-pattern>/bcmixr/getDisplayNames</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <servlet-name>checkIfRecentlyParsedServlet</servlet-name>
+    <servlet-class>ca.ubc.partyallthetime.bcmixr.server.CheckIfRecentlyParsedImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>checkIfRecentlyParsedServlet</servlet-name>
+    <url-pattern>/bcmixr/checkIfRecentlyParsed</url-pattern>
+  </servlet-mapping>
+
+
+
+
+  <servlet>
+    <servlet-name>greetServlet</servlet-name>
+    <servlet-class>ca.ubc.partyallthetime.bcmixr.server.GreetingServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>greetServlet</servlet-name>
+    <url-pattern>/bcmixr/greet</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>ca.ubc.partyallthetime.bcmixr.server.LoginServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/bcmixr/login</url-pattern>
+  </servlet-mapping>
+  
+    
+  
+        <servlet>
+    <servlet-name>recipeRatingServlet</servlet-name>
+    <servlet-class>ca.ubc.partyallthetime.bcmixr.server.RecipeRatingServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>recipeRatingServlet</servlet-name>
+    <url-pattern>/bcmixr/rating</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+    <servlet>
+    <servlet-name>priceServlet</servlet-name>
+    <servlet-class>ca.ubc.partyallthetime.bcmixr.server.PriceServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>priceServlet</servlet-name>
+    <url-pattern>/bcmixr/price</url-pattern>
+  </servlet-mapping>
+  
+  
+      <servlet>
+    <servlet-name>volumeServlet</servlet-name>
+    <servlet-class>ca.ubc.partyallthetime.bcmixr.server.ProductVolumeServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>volumeServlet</servlet-name>
+    <url-pattern>/bcmixr/volume</url-pattern>
+  </servlet-mapping>
+  
+
+  
+  
+  
+      <servlet>
+    <servlet-name>parseServlet</servlet-name>
+    <servlet-class>ca.ubc.partyallthetime.bcmixr.server.ParseServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>parseServlet</servlet-name>
+    <url-pattern>/bcmixr/parse</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <servlet-name>addressServlet</servlet-name>
+    <servlet-class>ca.ubc.partyallthetime.bcmixr.server.AddressServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>addressServlet</servlet-name>
+    <url-pattern>/bcmixr/address</url-pattern>
+  </servlet-mapping>
+  
+  
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>BCMixr.html</welcome-file>
+  </welcome-file-list>
+
+
+  <servlet>
+    <servlet-name>SystemServiceServlet</servlet-name>
+    <servlet-class>com.google.api.server.spi.SystemServiceServlet</servlet-class>
+    <init-param>
+      <param-name>services</param-name>
+      <param-value/>
+    </init-param>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>SystemServiceServlet</servlet-name>
+    <url-pattern>/_ah/spi/*</url-pattern>
+  </servlet-mapping>
+
+</web-app>

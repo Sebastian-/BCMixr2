@@ -1,0 +1,2 @@
+serviceClass: ca.ubc.partyallthetime.bcmixr.client.ProductVolumeService
+path: BCB3C5D28C6A6ADF57CB326C6A58919C.gwt.rpc

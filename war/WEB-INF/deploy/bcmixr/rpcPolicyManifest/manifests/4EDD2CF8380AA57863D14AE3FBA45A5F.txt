@@ -1,0 +1,2 @@
+serviceClass: ca.ubc.partyallthetime.bcmixr.client.AddressService
+path: B9FE269B0450C6CA01FACF7F0008E009.gwt.rpc
